@@ -5,8 +5,9 @@ from django.http import HttpResponse
 # Create your views here.
 
 def inicio(request):
-    return HttpResponse("<h1> Bienvenido a su Pagina De vuelos </h1>")
+    return render(request,'paginas/inicio.html')
 # directamente a template haciendo una solicitud a traves dela url  
+
 def nosotros(request):
     return render(request,'paginas/nosotros.html')
 
