@@ -9,3 +9,6 @@ def inicio(request):
 # directamente a template haciendo una solicitud a traves dela url  
 def nosotros(request):
     return render(request,'paginas/nosotros.html')
+
+def vuelos(request):
+    return render(request, 'vuelos\index.html')

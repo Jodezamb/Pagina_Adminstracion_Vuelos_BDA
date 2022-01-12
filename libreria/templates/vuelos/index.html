@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block titulo %} Lista de Vuelos {% endblock %}
+
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        Listar vuelos
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Vuelos</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Titulo</th>
+                    <th>imagen</th>
+                    <th>descrpcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >0</td>
+                    <td>django con python</td>
+                    <td>imagen.jpg</td>
+                    <td>libro que habla sobre el framerowr de django</td>
+                    <td>Editar | Borrar </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %} 
