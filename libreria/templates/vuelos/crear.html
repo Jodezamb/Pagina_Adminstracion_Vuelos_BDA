@@ -1,10 +1,23 @@
 {% extends "base.html" %}
 
-{% block titulo %} Agregrar Un nuevo Libro {% endblock %}
+{% block titulo %} Agregrar Un nuevo vuelo {% endblock %}
 
 
 {% block contenido %} 
 
-Formularion de agregrar un nuebo libro 
+<div class="card">
+    <div class="card-header">
+        Agregar un nuevo vuelo
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del vuelo </h4>
+        {% include 'vuelos/form.html' %}
+
+        
+    </div>
+    <div class="card-footer text-muted">
+       
+    </div>
+</div>
 
 {% endblock %} 

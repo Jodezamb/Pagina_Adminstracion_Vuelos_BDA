@@ -13,3 +13,6 @@ def nosotros(request):
 
 def vuelos(request):
     return render(request, 'vuelos\index.html')
+
+def crear(request):
+    return render(request, 'vuelos/crear.html')
