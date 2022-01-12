@@ -16,3 +16,6 @@ def vuelos(request):
 
 def crear(request):
     return render(request, 'vuelos/crear.html')
+
+def editar(request):
+    return render(request, 'vuelos\editar.html')
