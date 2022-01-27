@@ -3,6 +3,10 @@
 import os
 import sys
 
+from google.oauth2 import service_account
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/jadri/Downloads/proyectobda2-65742135074f.json"
+
 
 def main():
     """Run administrative tasks."""
